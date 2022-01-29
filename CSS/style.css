@@ -1,0 +1,44 @@
+body {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.intro{
+    display: flex;
+    
+}
+
+.info{
+    background-color: white;
+    /* text color is temporary */
+    color:black;
+    flex: 1; 
+
+}
+
+.quote{
+    background-color: #E5E7EB;;
+}
+
+.action{
+    background-color: white;
+    color: black;
+}
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
