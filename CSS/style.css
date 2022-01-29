@@ -6,48 +6,75 @@ body {
     
 }
 
+.main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
 .intro img{
     width: 100px;
     height: auto;
     flex: auto;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 .sign-up{
     width: 100px;
     flex: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.sign-up a {
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 1% 4%;
 }
 header {
     display: flex;
     align-items: center;
     justify-content: space-around;
     margin: 10px;
+    font-size: 24px;
 }
 
 .intro{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     margin: 2% 15%;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .info{
     background-color: white;
     /* text color is temporary */
-    color:black;
     flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2em;
     padding: 2em;
+    font-size: 18px;
+    color: #1F2937;
 
+}
+
+.info-main{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
 
 .info img {
     width: 150px;
     height: 150px;
-    border: 1px solid #3882F6; 
+    border: 5px solid #3882F6;
+    border-radius: 10%;
 }
 
 .cards{
@@ -74,7 +101,28 @@ header {
 }
 
 .quote{
-    background-color: #E5E7EB;;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 10% 20%;
+    gap: 1em;
+    
+}
+
+.text, .source{
+    margin: 0;
+}
+.text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.source {
+    text-align: right;
+    font-size: 18px;
+    color: #1F2937
+    
 }
 
 .action{
@@ -91,5 +139,38 @@ ul {
     display: flex;
     margin: 0;
     padding: 0;
-    gap: 0.5em;
+    gap: 0.75em;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centerd-action{
+    background-color: #3882F6;
+    margin: 5% 5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    gap: 10em;
+    padding: 3% 6%;
+    border-radius: 10px;
+}
+
+.action a {
+    border: 3px solid white;
+    padding: 1% 3%;
+    flex: 1 0 auto;
+    border-radius: 10px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
 }
